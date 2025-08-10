@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="hero">
+        <nav>
+            <h1 class="logo">☕ Aroma Café</h1>
+            <span class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('show')">☰</span>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>El mejor café de la ciudad</h2>
+            <p>Ambiente acogedor y sabores inolvidables</p>
+            <a href="#menu" class="btn">Ver Menú</a>
+        </div>
+    </header>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En Aroma Café, seleccionamos los mejores granos y cuidamos cada detalle para ofrecerte una experiencia única. Nuestro ambiente está diseñado para que disfrutes de cada taza.</p>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="section">
+        <div class="container">
+            <h2>Menú</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Capuchino</h3>
+                    <p>Café espresso con leche espumada</p>
+                    <span>$3.50</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte</h3>
+                    <p>Espresso suave con leche cremosa</p>
+                    <span>$3.00</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Mocha</h3>
+                    <p>Espresso, chocolate y leche espumada</p>
+                    <span>$4.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="gallery-grid">
+                <img src="img/cafe1.jpg" alt="Café 1">
+                <img src="img/cafe2.jpg" alt="Café 2">
+                <img src="img/cafe3.jpg" alt="Café 3">
+                <img src="img/cafe4.jpg" alt="Café 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>📍 Calle 123, Ciudad</p>
+            <p>📞 +57 300 000 0000</p>
+            <p>✉ contacto@aromacafe.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Aroma Café - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
